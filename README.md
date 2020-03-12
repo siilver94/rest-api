@@ -45,6 +45,27 @@ REST 는 아키텍쳐 스타일이면서 동시에 하이브리드 아키텍쳐 
 
 - **Cold-on-demand(optional)** : 서버에서 코드를 클라이언트로 보내서 실행 할 수 있어야 한다. (JavaScript)
 
+## RestAPI 개념
+
+
+**Server** 쪽에 **Client** 가 어떤 것을 **URL** 을 통해 **request**를  했을 때 그 resource 를 **response** 받고, **받는 타입(XML, JSON)** 을 선택 가능하고 그것을 **Representation** 이라고 한다.
+
+Application은 Resource 를 받으면 그 결과 값을 보여 주기 위해 화면에 뿌려 주는데, 그렇게 되면 상태 값이 바뀌게 된다.
+
+그래서 Rest 는 **representation** 을 주고 받는다(Transfer) 
+라고 하여 **Representational State Transfer(REST)API** 라고 한다.
+
+
+![Untitled](https://user-images.githubusercontent.com/57824945/76495089-85648800-6479-11ea-9e21-f869fdbc1097.png)
+
+### 
+### 
+## REST의 장단점
+
+- **장점** : HTTP 프로토콜의 인프라를 그대로 사용하므로 REST API 사용을 위한 별도의 인프라를 구출할 필요가 없다. HTTP 표준 프로토콜에 따르는 모든 플랫폼에서 사용이 가능하다. Hypermedia API의 기본을 충실히 지키면서 범용성을 보장한다. REST API 메시지가 의도하는 바를 명확하게 나타내므로 의도하는 바를 쉽게 파악할 수 있다. 여러가지 서비스 디자인에서 생길 수 있는 문제를 최소화한다. 서버와 클라이언트의 역할을 명확하게 분리한다.
+
+
+- **단점** : 표준이 존재하지 않는다.사용할 수 있는 메소드가 4가지 밖에 없다. HTTP Method 형태가 제한적이다.브라우저를 통해 테스트할 일이 많은 서비스라면 쉽게 고칠 수 있는 URL보다 Header 값이 왠지 더 어렵게 느껴진다. 구형 브라우저가 아직 제대로 지원해주지 못하는 부분이 존재한다. PUT, DELETE를 사용하지 못하는 점pushState를 지원하지 않는 점.
 
 
 
