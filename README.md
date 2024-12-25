@@ -1,15 +1,11 @@
-# Project : Rest API
+# Rest API
 
 <code><img height="400"
 src = https://github.com/siilver94/rest-api/assets/57824945/448847d4-c068-42c4-b99b-c1fbf0f8347b></code>
 
-
 ## 프로젝트 소개
 
-
-웹으로 간단한 질답을 낼 수 있는 형태를 **restAPI** 를 사용하여 **Restful** 하게 **PostMan(clinet)**, **JAVA(server)** 를 사용하여 만들기.
-
-<br/>
+웹으로 데이터를 주고받기 위해 **restAPI** 를 사용하여 **Restful** 하게 **PostMan(clinet)**, **JAVA(server)** 를 사용하여 환경을 구축 해보겠습니다.
 
 ## Rest API 란?
 
@@ -31,9 +27,7 @@ src = https://github.com/siilver94/rest-api/assets/57824945/448847d4-c068-42c4-b
 제약 조건들의 집합이고 이것들을 모두 지켜야 REST 를 따른다 라고 할 수 있다.
 REST 는 아키텍쳐 스타일이면서 동시에 하이브리드 아키텍쳐 스타일임, 아키텍쳐 이면서 아키텍쳐의 집합이기 때문이다.
 
-
 <br/>
-
 
 ### RESTful 하기위한 아키텍쳐 제약 조건
 
