@@ -5,7 +5,13 @@
 - **Jersey**
 - **Apache Tomcat 8.0**
 
+---
+
 ## Maven
+
+<code><img height = "350"
+src = https://github.com/user-attachments/assets/886785be-4eba-40a6-9cfd-4e70e24cdb7c></code>
+
 
 - 프로젝트를 진행하게 되면 단순히 자신이 작성한 코드만으로 개발하는것이 아니라 많은 라이브러리들을 활용해서 개발을 하게 됩니다. 이 때 사용되는 라이브러리들의 수가 수십개가 훌쩍 넘어버리는 일이 발생해 이 많은 라이브러리들을 관리하는 것이 힘들어지는 경우가 종종 발생하곤 합니다. Maven은 이러한 문제를 해결해 줄 수 있는 도구 입니다. Maven은 내가 사용할 라이브러리 뿐만 아니라 해당 라이브러리가 작동하는데에 필요한 다른 라이브러리들까지 관리하여 네트워크를 통해서 자동으로 다운받아 줍니다.
 
@@ -14,7 +20,13 @@
 
 출처: https://boxfoxs.tistory.com/324
 
+---
+
 ## Jersey
+
+<code><img height = "350"
+src = https://github.com/user-attachments/assets/a3540f11-12ce-4360-99f2-c578a1c7e81e></code>
+
 
 - Jersey는 Sun의 JSR 311에서 구현된 JAX-RS: RESTful 웹 서비스용 Java API입니다. 
 
@@ -22,8 +34,12 @@
 
 - Jersey는 JSR에서 지정하지 않은 추가 기능도 지원합니다. 
 
+---
 
 ## Apache Tomcat
+
+![image](https://github.com/user-attachments/assets/bf8fcc0a-d750-4eb5-9310-bc62036af200)
+
 
 - 아파치 톰캣(Apache Tomcat)은 아파치 소프트웨어 재단에서 개발한 서블릿 컨테이너(또는 웹 컨테이너)만 있는 웹 애플리케이션 서버이다.
 
