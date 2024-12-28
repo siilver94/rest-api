@@ -5,7 +5,7 @@ src = https://github.com/siilver94/rest-api/assets/57824945/448847d4-c068-42c4-b
 
 ## 프로젝트 소개
 
-웹으로 데이터를 주고받기 위해 **restAPI** 를 사용하여 **Restful** 하게 **PostMan(clinet)**, **JAVA(server)** 를 사용하여 환경을 구축 해보겠습니다.
+웹으로 데이터를 주고받기 위해 **restAPI** 를 사용하여 **Restful** 하게 **PostMan** 으로 클라이언트를, **JAVA**로 서버를 구축해 보겠습니다.
 
 ## Rest API 란?
 
